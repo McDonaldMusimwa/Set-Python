@@ -5,24 +5,20 @@ class SetTutorial:
 
 
     def addItems(self,value):
-        self.data.add(value)
-        #self.data.update(value)
+        pass
+        
 
     def removeItem(self,value):
-        self.data.remove(value)
+        pass
             
-    #convert array to set
-    numbers = [1,2,3,3,4,5,6,6,7]
-    uniqueNumber = set(numbers)
+
 
     def union(self,set1,set2):  
         newset=  set1 |set2
         return newset
     
     def intersetction (self,set1,set2):
-        newset = set1 & set2
-        return newset
-    
+        pass
     def difference(self,set1,set2):
         """
         difference() Method:
@@ -33,8 +29,7 @@ class SetTutorial:
         The original sets set1 and set2 are not modified.
         
         """
-        difference = set1-set2
-        return difference
+        pass
     
     def symmetricDifference(self,set1,set2):
         """
@@ -48,17 +43,10 @@ class SetTutorial:
     def clearItems(self,set):
         """Clear all items"""
 
-        return set.clear()
+        pass
     
     def copySet(self,set1):
-        newSet = set1.copy()
-        return newSet
-
-    for i in range(6,14,2):
-        uniqueNumber.add(i)
-    print (uniqueNumber)
-    uniqueNumber.discard(12)
-    print(uniqueNumber)
-    #remove value 
-    value = uniqueNumber.pop()
-    print (value)
+        """
+        create a new set by copying set1
+        """
+        pass
